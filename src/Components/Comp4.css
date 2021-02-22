@@ -1,0 +1,44 @@
+.comp4{
+    margin-top: 100px;
+}
+.illustration{
+    display: flex;
+}
+.illustration_left{
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.illustration_left h2{
+    font-weight: bold;
+}
+.illustration_left button{
+    margin-top: 30px;
+}
+.illustration_right{
+    margin-left: 150px;
+}
+@media screen and (max-width: 800px) {
+    .comp4{
+        width: 360px;
+        margin-top: 40px;
+    }
+    .illustration{
+        width: 360px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .illustration_left h2{
+        font-size: 30px;
+        margin-left: -170px;
+        margin-top: 200px;
+    }
+    .illustration_left button{
+        margin-left: -170px;
+        width: 320px;
+    }
+    .illustration_right img{
+        width: 325px;
+        margin-top: -700px;
+        margin-left: -180px;
+    }
+}

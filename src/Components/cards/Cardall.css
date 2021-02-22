@@ -1,0 +1,59 @@
+.lef{
+    width: 510px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.righ{
+    margin-top: -15px;
+    margin-right: -15px;
+}
+.righ img{
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+}
+.lef h6{
+    color: #777684;
+}
+.lef h2{
+    margin-top: 30px;
+}
+.lef img{
+    margin-top: 20px;
+}
+.lef span b{
+    margin-left: 25px;
+}
+.lef p{
+    margin-left: 72px;
+    margin-top: -25px;
+}
+.lef button{
+    margin-top: 20px;
+}
+.cardmain{
+    display: flex;
+
+}
+.card123{
+    background-color: white;
+    width: 1020px;
+    margin-left: 100px;
+    height: 495px;
+    border-radius: 22px;
+ }
+@media screen and (max-width: 800px) {
+ .righ{
+     display: none;
+ }
+ .card123{
+    margin-left: 20px;
+    width: 320px;
+    height: 380px;
+ }
+ .lef{
+     margin-top: 20px;
+ }
+ .lef h2{
+     font-size: 22px;
+ }
+}

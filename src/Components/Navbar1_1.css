@@ -1,0 +1,20 @@
+.navbutton{
+    margin-left: 720px;
+}
+.navbutton button{
+    margin-right: 15px;
+    border-radius: 6px;
+    font-size: 20px;
+}
+.nan nav{
+    background-color: #6691ff !important;
+    margin-bottom: 30px;
+    
+}
+.nan{
+    background-color: #6691ff !important;
+}
+.nan ul{
+    margin-left: 500px;
+    color: white !important;
+}

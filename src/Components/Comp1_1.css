@@ -1,0 +1,17 @@
+.comp1_1{
+    text-align: center ;
+    background-color: #6691ff;
+    color: white;
+}
+.comp1_1 h1{
+    font-weight: bold;
+    
+}
+.comp1_1 p{
+    margin-top: 20px;
+}
+.comp1_1 button{
+    background-color:rgb(250, 141, 17);
+    margin-top: 18px;
+    margin-bottom: 20px;
+}

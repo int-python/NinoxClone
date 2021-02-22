@@ -1,0 +1,10 @@
+.App{
+  background-color: #fafafa;
+}
+
+@media (max-width: 800px) {
+  .body{
+    overflow-x: hidden;
+    width: 360px;
+  }
+}
